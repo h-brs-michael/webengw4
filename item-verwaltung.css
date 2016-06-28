@@ -1,0 +1,59 @@
+.ccm-item-verwaltung {
+  font-family: Arial, sans-serif;
+}
+
+.ccm-item-verwaltung > #main {
+  background-color: lightgreen;
+  border: 2px solid black;
+}
+.ccm-item-verwaltung > #main > .header {
+  border-bottom: 2px solid black;
+}
+.ccm-item-verwaltung > #main > .items {
+  background-color: beige;
+  border-bottom: 2px solid black;
+  overflow-y: scroll;
+  border-spacing: 1px;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+}
+.ccm-item-verwaltung > #main > .header > .header > .title{
+  font-size: 115%;
+  font-weight: bold;
+  padding: 0.5em;
+  top: 2em;
+}
+.ccm-item-verwaltung > #main > .header > .header > #items-button, #done-button{
+  //display:block;
+  padding: 0.5em;
+  margin: 0.25em;
+}
+.ccm-item-verwaltung > #main > .items-input {
+  padding: 0.5em;
+}
+.ccm-item-verwaltung > #main > .items-input > .input-items > .text > #input-text, #input-date{
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+}
+
+.ccm-item-verwaltung > #main > .header > .header > #header-text {
+  display: table-cell;
+}
+.ccm-item-verwaltung > #main > .items > .item{
+  display: table-row;
+}
+.ccm-item-verwaltung > #main > .items > .item > .checkBox{
+  display: table-cell;
+}
+.ccm-item-verwaltung > #main > .items > .item > .text{
+  display: table-cell;
+}
+.ccm-item-verwaltung > #main > .items > .item > .date{
+  padding-left: 2em;
+  display: table-cell;
+
+}
+
+
+
+
